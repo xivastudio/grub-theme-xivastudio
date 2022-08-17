@@ -5,7 +5,7 @@ cp /usr/share/pixmaps/xivastudio-grub.png  /usr/share/grub/themes/biglinux/xivas
 cp /usr/share/pixmaps/xivastudio-grub.png  /boot/grub/themes/biglinux/xivastudio.png
 cp /usr/share/pixmaps/grub-icon-xivastudio.png  /usr/share/grub/themes/biglinux/icons/xivastudio.png
 cp /usr/share/pixmaps/grub-icon-xivastudio.png  /boot/grub/themes/biglinux/icons/xivastudio.png
-sed -i 's/biglinux-grub.png/xivastudio.png/'  /usr/share/grub/themes/biglinux/theme.txt
+sed -i 's/biglinux.png/xivastudio.png/'  /usr/share/grub/themes/biglinux/theme.txt
 sed -i 's/biglinux-grub.png/xivastudio.png/'  /boot/grub/themes/biglinux/theme.txt
 
 update-grub
