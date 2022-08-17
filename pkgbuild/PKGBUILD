@@ -1,0 +1,15 @@
+pkgname=grub-theme-xivastudio
+pkgver=1.00
+pkgrel=1
+arch=('any')
+license=('GPL')
+depends=('grub-theme-biglinux')
+url="https://github.com/xivastudio/grub-theme-xivastudio"
+pkgdesc="grub theme for xiva studio"
+source=("git+https://github.com/xivastudio/grub-theme-xivastudio.git")
+md5sums=(SKIP)
+install=post.install
+
+package() {
+    cp -r "${srcdir}/grub-theme-xivastudio/usr/" "${pkgdir}/"
+}
